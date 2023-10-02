@@ -2,4 +2,4 @@ module crud
 
 go 1.20
 
-require github.com/Aslanchik2o/cache v0.0.0-20230930110022-d50ec19ecfbd
+require github.com/Aslanchik2o/cache v0.0.0-20231002062131-672c45ece714
