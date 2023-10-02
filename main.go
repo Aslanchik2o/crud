@@ -3,17 +3,18 @@ package cache
 import (
 	 
 	"fmt"
+	"github.com/Aslanchik2o/cache"
 )
 
 func main() {
 	cache := cache.New
-	cache.Set("userId", 42)
-	userId := cache.Get("userId")
+	cache().Set("asas", 17)
+	userId := cache
 	
 
 	fmt.Println(userId)
-	cache.Deleate("userId")
-	userId := cache.Get("userId")
+	cache().Delete("userId")
+	userId := cache
 
 	fmt.Println(userId)
 }
