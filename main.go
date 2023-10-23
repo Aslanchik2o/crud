@@ -8,7 +8,7 @@ import (
 
 func main() {
 	cache := cache.New()
-	cache.Set("userId", 17)
+	cache.Set("userId", 17 time.Second * 5)
 
 	userId := cache.Get("userId")
 
